@@ -523,12 +523,6 @@ IDataArray::Pointer ImportMASSIFData::readIDataArray(hid_t gid, const QString& n
     case H5T_STRING:
       res.clear(); // Clear the string out first
       err = QH5Lite::readStringDataset(gid, name, res);
-      //        if(err >= 0)
-      //        {
-      //          IDataArray::Pointer attr = MXAAsciiStringData::Create(res);
-      //          attr->setName(name);
-      //          attributes[*iter] = attr;
-      //        }
       break;
     case H5T_INTEGER:
       // qDebug() << "User Meta Data Type is Integer" ;
