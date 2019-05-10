@@ -1,6 +1,4 @@
-#--////////////////////////////////////////////////////////////////////////////
-#-- Your License or Copyright can go here
-#--////////////////////////////////////////////////////////////////////////////
+message(FATAL_ERROR "MASSIFUtilities is merged into DREAM3DReview. You don't need this filter any more")
 
 set(PLUGIN_NAME MASSIFUtilities)
 set(${PLUGIN_NAME}_VERSION "1.0")
